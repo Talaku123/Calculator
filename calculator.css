@@ -1,0 +1,89 @@
+*{
+
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: system-ui, Roboto;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body{
+  background-color: hwb(210 45% 31%);
+  display: grid;
+  grid-template-columns: 400px ;
+ 
+}
+.cal-all{
+  background-color: navajowhite;
+  border: 1dvh solid;
+  border-radius: 2dvh;
+  margin-top: 20dvh;
+
+}
+
+div{
+  letter-spacing: 6px;
+  padding: 9px 0;
+  text-align:right;
+  
+ 
+}
+ .cal-h3{
+  font-size: 3dvh;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 3dvh;
+  margin-bottom: 3dvh;
+}
+
+.inp-inp-cal,.btn-cal,.rest-btn{
+  border: 0.5px solid;
+  box-shadow: -5px -6px 2px rgb(255, 255, 255, 0.9),
+               5px 5px 5px rgb(0,0,0,0.9),
+               15px 15px 15px rgb(0,0,0,0.2);
+
+  filter: drop-shadow(-3px -3px 2px rgb(255, 255, 255, 0.3))
+          drop-shadow( 5px 5px 5px rgb(0,0,0,0.2))  
+          drop-shadow( 15px 15px 15px rgb(0,0,0,0.2)); 
+
+  height: 50px;
+  
+}
+
+.inp-inp-cal{
+  
+  background-color: #191210;
+  border-radius: 6px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  width: 260px;
+  
+}
+.inp-inp-calStyle{
+  color: brown;
+}
+
+.btn-cal{
+  border-radius: 5px;
+  font-size: 22px;
+  margin: 4px;
+  width: 50px;
+
+}
+.cal-cal-col{
+  background-color: rgb(0, 213, 255);
+}
+.rest-btn{
+  background-color: hwb(0 38% 23%);
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  
+
+}
+.cal-btn-cal{
+  background-color: rgb(6, 107, 100);
+  color: snow;
+}

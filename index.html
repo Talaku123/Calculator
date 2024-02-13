@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./calculator.css">
+  <title>calculator</title>
+  
+</head>
+<body>
+
+
+  <section class="cal-all">
+
+    <h3 class="js-h3 cal-h3">Calculate Calculation</h3>
+
+    <div class="inp-inp-cal btn-btn-cal" id="js-number-calculator" >0</div>
+    
+    <div class="section">
+
+          <button class="btn-cal"onclick="additionToDisplay('0')">0</button>
+          <button class="btn-cal"onclick="additionToDisplay('1')">1</button>
+          <button class="btn-cal"onclick="additionToDisplay('2')">2</button>
+          <button class="btn-cal cal-cal-col" onclick="additionToDisplay('+')">+</button>
+      
+          <br>
+          
+          <button class="btn-cal"onclick="additionToDisplay('3')">3</button>
+          <button class="btn-cal"onclick="additionToDisplay('4')">4</button>
+          <button class="btn-cal"onclick="additionToDisplay('5')">5</button>
+          <button class="btn-cal cal-cal-col" onclick="additionToDisplay('-')">-</button>
+      
+          <br>
+
+          <button class="btn-cal"onclick="additionToDisplay('6')">6</button>
+          <button class="btn-cal"onclick="additionToDisplay('7')">7</button>
+          <button class="btn-cal"onclick="additionToDisplay('8')">8</button>
+          <button class="btn-cal cal-cal-col" onclick="additionToDisplay('*')">x</button>
+      
+          <br>
+      
+          <button class="btn-cal"onclick="additionToDisplay('9')">9</button>
+          <button class="btn-cal cal-cal-col cal-btn-cal"  onclick="additionToDisplay('(')">(</button>
+          <button  class="btn-cal cal-cal-col cal-btn-cal" onclick="additionToDisplay(')')">)</button>
+          <button class="btn-cal cal-cal-col" onclick="additionToDisplay('/')">/</button>
+        
+          <br>
+
+          <button class="btn-cal cal-cal-col cal-btn-cal" onclick="additionToDisplay('.')">.</button>
+          <button class="btn-cal cal-cal-col cal-btn-cal "onclick="clearLastElement()">CE</button>
+          <button class="btn-cal rest-btn"onclick="deleteNumber()">RESET</button>
+          <button class=" btn-cal cal-cal-col "onclick="calculateResult()" >=</button>
+   
+    </div>
+ 
+  </section>
+  
+ <script src="./calculator.js"></script>
+</body>
+</html>
